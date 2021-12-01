@@ -18,4 +18,4 @@ bill_per_person = total_bill / people
 final_amount = round(bill_per_person, 2)
 final_amount = "{:.2f}".format(bill_per_person)
 
-print(f"Each person should pay ${final_amount}")
+print(f"Each person should pay ${final_amount}") 
