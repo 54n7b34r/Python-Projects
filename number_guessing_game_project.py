@@ -30,7 +30,6 @@ def game():
     print("I'm thinking of a number between 1 and 100.")
 
     answer = randint(1, 100)
-    print(answer)
     turns = set_difficulty()
 
     guess = 0
